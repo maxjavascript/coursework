@@ -1,0 +1,62 @@
+.auth-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    /* Форма по центру страницы */
+    width: 100%;
+    /* Занимает всю доступную ширину */
+}
+
+.auth-form-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    /* Закругление углов */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Тень вокруг формы */
+    width: 100%;
+    /* Занимает всю ширину контейнера */
+    max-width: 400px;
+    /* Максимальная ширина формы */
+    min-height: 400px;
+    /* Минимальная высота формы */
+}
+
+.form-input {
+    width: 100%;
+    /* Устанавливаем ширину на 100% */
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.auth-form-card form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    font-size: 1.1rem;
+}
+
+button[type='submit'] {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+button[type='submit']:hover {
+    background-color: #0056b3;
+}
+
+.auth-form-container button {
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+.auth-form-container {
+    width: 500px;
+}
